@@ -1,0 +1,9 @@
+{
+  "name": "openjscad",
+  "description": "programmable 2D and 3D modeling tool in javascript",
+  "homepage": "http://joostn.github.com/OpenJsCad/",
+  "author": "Joost Nieuwenhuijse",
+  "version": "0.0.1",
+  "git": "https://github.com/ahdinosaur/meteor-OpenJsCad",
+  "packages": {}
+}
