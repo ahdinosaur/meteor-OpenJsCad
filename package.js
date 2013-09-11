@@ -3,9 +3,10 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.export('OpenJsCad', 'client');
-  api.export('CSG', 'client');
   api.add_files('lib/OpenJsCad/lightgl.js', 'client');
+  api.export('GL', 'client');
   api.add_files('lib/OpenJsCad/csg.js', 'client');
+  api.export('CSG', 'client');
   api.add_files('lib/OpenJsCad/openjscad.js', 'client');
+  api.export('OpenJsCad', 'client');
 });
